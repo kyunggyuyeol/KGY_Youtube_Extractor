@@ -440,8 +440,6 @@ namespace youtubedownloader_webquery_
             //다운로드 시작
             Task work = new Task(() => getdownUrlList());
             work.Start();
-
-            //getdownUrlList();
         }
     }
 }
